@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
+      <link>/posts/my-first-post/</link>
       <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+      <guid>/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!&#xA;This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!&#xA;This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!&#xA;This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!&#xA;This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!&#xA;This is bold text, and this is emphasized text.</description>
+    </item>
+    <item>
+      <title>My Second Post</title>
+      <link>/posts/test/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>/posts/test/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.&#xA;常用用法 1、预定义宏 总结： PROJECT_SOURCE_DIR 讲解： CMake 提供了一些预定义的宏（变量），这些宏在项目配置和生成过程中提供有用的信息。以下是一些常用的预定义宏及其用途：&#xA;CMake版本信息 CMAKE_MAJOR_VERSION: CMake 的主版本号。 CMAKE_MINOR_VERSION: CMake 的次版本号。 CMAKE_PATCH_VERSION: CMake 的补丁版本号。 CMAKE_VERSION: CMake 的完整版本号（格式为 major.minor.patch）。 message(STATUS &amp;#34;CMake version: ${CMAKE_VERSION}&amp;#34;) 系统信息 CMAKE_SYSTEM: 操作系统的名称，格式为 &amp;lt;OS&amp;gt;-&amp;lt;CPU&amp;gt;。 CMAKE_SYSTEM_NAME: 操作系统的名称，如 Linux、Windows、Darwin。 CMAKE_SYSTEM_VERSION: 操作系统的版本号。 CMAKE_SYSTEM_PROCESSOR: 处理器名称，如 x86_64、armv7l。 message(STATUS &amp;#34;System: ${CMAKE_SYSTEM_NAME} ${CMAKE_SYSTEM_VERSION}&amp;#34;) message(STATUS &amp;#34;Processor: ${CMAKE_SYSTEM_PROCESSOR}&amp;#34;) 项目信息 CMAKE_PROJECT_NAME: 最顶层的 CMake 项目名称（即 project() 指令指定的名称）。 CMAKE_PROJECT_VERSION: 项目的完整版本号（如果使用 project(VERSION) 指定）。 CMAKE_PROJECT_VERSION_MAJOR: 项目的主版本号。 CMAKE_PROJECT_VERSION_MINOR: 项目的次版本号。 CMAKE_PROJECT_VERSION_PATCH: 项目的补丁版本号。 project(MyProject VERSION 1.</description>
     </item>
   </channel>
 </rss>
